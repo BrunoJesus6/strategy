@@ -1,2 +1,6 @@
-package org.example;public interface imposto {
+package org.example;
+
+public interface Imposto {
+    float calcular(float valorBase);
+
 }

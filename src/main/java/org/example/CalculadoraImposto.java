@@ -1,14 +1,14 @@
 package org.example;
 
-public class Calculadora {
+public class CalculadoraImposto {
 
     private Imposto estrategiaImposto;
 
-    public Calculadora(Imposto estrategiaImposto) {
+    public CalculadoraImposto(Imposto estrategiaImposto) {
         this.estrategiaImposto = estrategiaImposto;
     }
 
-    public float calcularImposto(float valorBase) {
+    public float calcular(float valorBase) {
         return estrategiaImposto.calcular(valorBase);
     }
 }
